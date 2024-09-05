@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.top {
+    background-color: rgb(26, 128, 0);
+    text-align: center;
+    padding: 2px;
+    height: 90px;
+    color: white;
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    color: rgb(26, 128, 0);
+}
+
+#welcome-message, .framed-box {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    text-align: start;
+}
+
+.training-session {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 40%;
+    margin: 10px auto; 
+    transition: background-color 0.3s ease;
+}
+
+#session {
+    color: blue;
+}
+
+#trainer {
+    color: grey;
+}
+
+.trainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.tactic-type{
+    background-color: orange;
+    text-align: center;
+    border-radius: 10%;
+}

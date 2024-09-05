@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.top {
+    background-color: rgb(26, 128, 0);
+    text-align: center;
+    padding: 2px;
+    height: 90px;
+    color: white;
+}
+
+.nav {
+    background-color: rgb(26, 128, 0);
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+#deatails, .framed-box {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 95%;
+    background-color: #fff;
+    text-align: start;
+}
+
+.form-heders {
+    color: green;
+    margin: 1%;
+}
